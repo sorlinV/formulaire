@@ -1,0 +1,6 @@
+body {
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background-image:radial-gradient(transparent, black), url(img/delhi.jpg);
+}
