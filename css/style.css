@@ -1,6 +1,61 @@
+/* Debug BOX*/
+/*body * {
+   display: block;
+   min-width: 20px;
+   min-height: 20px;
+   border: solid 1px white;
+}*/
+/* END Debug BOX*/
+
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
     min-height: 100vh;
     height: 100%;
     width: 100%;
-    background-image:radial-gradient(orange, black);
+    margin: 0px;
+    padding: 0px;
+    background-image:radial-gradient(transparent, black), url(/img/delhi.jpg);
+}
+
+.patate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 1%;
+}
+/* =======PATATE======= */
+input {
+    width: 200px;
+    height: 80px;
+    background: orange;
+    font-size: 150%;
+    border-radius: 50px;
+}
+
+input:hover {
+    background: blue;
+    font-size: 200%;
+}
+/*====================*/
+
+ul {
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+}
+
+ul :hover {
+   display: block;
+   min-width: 20px;
+   min-height: 20px;
+   border: solid 1px white;
 }
