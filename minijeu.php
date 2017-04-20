@@ -12,6 +12,5 @@
         include ('header.html');
         exec ('cowsay "bonjour je suis une vache"');
     ?>
-    <iframe id="poney" width="560" height="315" src="https://www.youtube.com/embed/u5Ho1trvlro" frameborder="0" allowfullscreen></iframe>
 </body>
 </html>

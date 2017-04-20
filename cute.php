@@ -9,9 +9,10 @@
 </head>
     <body>
         <header>
-            <nav class="right up">
-                <a href="/cute_nav.html"><img src="http://iconshow.me/media/images/ui/ios7-icons/png/128/nav512.png" alt="nav"></a>
-            </nav>
+            <?php
+                include ('header.html');
+                exec ('cowsay "bonjour je suis une vache"');
+            ?>
             <aside class="left up">
                 <p>DELHI NOW</p>
                 <img src="https://image.flaticon.com/icons/png/128/124/124563.png" alt="soleil" class="inline">

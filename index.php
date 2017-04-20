@@ -8,13 +8,10 @@
     <title>Site Formulaire</title>
 </head>
 <body>
-    <nav class="patate">
-        <a href="/"><input type="button" value="home"/></a>
-        <a href="/minijeu.html"><input type="button" value="minijeu"/></a>
-        <a href="/live.php"><input type="button" value="live"/></a>
-        <a href="/contact.html"><input type="button" value="contact"/></a>
-        <a href="/cute.html"><input type="button" value="cute"/></a>
-    </nav>
+    <?php
+        include ('header.html');
+        exec ('cowsay "bonjour je suis une vache"');
+    ?>
     <ul>
         <li class="inline"><a href="#">DELHI</a></li>
         <li class="inline"><a href="#">MUMBAI</a></li>
