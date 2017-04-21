@@ -12,5 +12,9 @@
         include ('header.html');
         exec ('cowsay "bonjour je suis une vache"');
     ?>
+    <?php
+        include ('img/bonhomme.svg');
+    ?>
+</svg>
 </body>
 </html>

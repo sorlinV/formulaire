@@ -19,6 +19,7 @@ body {
     margin: 0px;
     padding: 0px;
     background-image:radial-gradient(transparent, black), url(/img/delhi.jpg);
+    background-attachment: fixed;
 }
 
 #poney {
@@ -72,4 +73,13 @@ ul :hover {
    min-width: 20px;
    min-height: 20px;
    border: solid 1px white;
+}
+
+p {
+    color: white;
+}
+
+h2 {
+    color: green;
+    text-decoration: underline;
 }
